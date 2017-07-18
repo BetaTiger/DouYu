@@ -54,6 +54,7 @@
 		69AA1F121F1E002A00FDAC2F /* DouYu */ = {
 			isa = PBXGroup;
 			children = (
+				69AA1F651F1E045C00FDAC2F /* Classes */,
 				69AA1F131F1E002A00FDAC2F /* AppDelegate.swift */,
 				69AA1F151F1E002A00FDAC2F /* ViewController.swift */,
 				69AA1F171F1E002A00FDAC2F /* Main.storyboard */,
@@ -62,6 +63,45 @@
 				69AA1F1F1F1E002A00FDAC2F /* Info.plist */,
 			);
 			path = DouYu;
+			sourceTree = "<group>";
+		};
+		69AA1F651F1E045C00FDAC2F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				69AA1F841F1E045C00FDAC2F /* Main */,
+				69AA1F661F1E045C00FDAC2F /* Home */,
+				69AA1F981F1E045C00FDAC2F /* Room */,
+				69AA1F9C1F1E045C00FDAC2F /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		69AA1F661F1E045C00FDAC2F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		69AA1F841F1E045C00FDAC2F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		69AA1F981F1E045C00FDAC2F /* Room */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		69AA1F9C1F1E045C00FDAC2F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +356,7 @@
 				69AA1F241F1E002A00FDAC2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
